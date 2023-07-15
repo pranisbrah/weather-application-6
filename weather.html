@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Weather Prototype 1</title>
+    <!-- External CSS stylesheets -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="weather.css" />
+  </head>
+  <body>
+    <!-- Main container -->
+    <div class="w-main">
+      <div class="weather_body">
+        <!-- Day placeholder -->
+        <div class="day"></div>
+        <div class="weather-info">
+          <!-- City name -->
+          <h1 class="city" style="font-size: 50px"></h1>
+          <!-- Temperature -->
+          <div class="temp" style="font-size: 26px"></div>
+          <!-- Weather icon -->
+          <img
+            src=""
+            alt=""
+            class="weather-icon"
+            style="width: 80px; height: 80px"
+          />
+          <div class="description">
+            <!-- Description of the weather -->
+            <p>description</p>
+          </div>
+        </div>
+        <div class="weather-info">
+          <!-- Humidity box -->
+          <div class="box humidity-box">
+            <h3>Humidity</h3>
+            <p class="humidity"></p>
+          </div>
+          <!-- Pressure box -->
+          <div class="box pressure-box">
+            <h3>Pressure</h3>
+            <p class="pressure"></p>
+          </div>
+          <!-- Wind Speed box -->
+          <div class="box wind-box">
+            <h3>Wind Speed</h3>
+            <p class="wind"></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Search box -->
+      <div class="search-box">
+        <!-- Input field for city -->
+        <input type="text" id="search-input" placeholder="Enter a city" />
+        <!-- Search button -->
+        <button id="search-button">Search</button>
+      </div>
+    </div>
+
+    <!-- JavaScript file -->
+    <script src="weather.js"></script>
+  </body>
+</html>

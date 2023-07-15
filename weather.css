@@ -1,0 +1,98 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+  height: 100vh; /* Set the body height to 100% of the viewport height */
+  overflow: hidden; /* Hide any overflow content */
+  background-repeat: no-repeat; /* Prevent background image repetition */
+  background-position: top center; /* Position the background image at the top center */
+  font-family: "Open Sans", Arial, Helvetica, sans-serif; /* Set the font family for the body */
+  background-size: cover; /* Scale the background image to cover the entire body */
+}
+
+/* Weather Body Styles */
+.weather_body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 10px;
+  line-height: 2.5rem;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 50%;
+}
+
+/* Main Container Styles */
+.w-main {
+  width: 500px;
+  margin: 100px auto;
+  background-color: rgba(9, 9, 9, 0.7);
+  padding: 25px;
+  text-align: center;
+  border-radius: 30px;
+}
+
+/* Search Box Styles */
+.search-box {
+  margin-top: 20px;
+}
+
+.search-box input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  width: 200px;
+}
+
+.search-box button {
+  padding: 10px 20px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: none;
+  background-color: #000000;
+  color: white;
+  cursor: pointer;
+}
+
+/* Weather Info Styles */
+.weather-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.weather-info .box {
+  width: 100%;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.weather-info .box h3 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.weather-info .box p {
+  font-size: 14px;
+  color: #555;
+}
+
+/* City Styles */
+.city {
+  font-size: 26px;
+  font-weight: 400;
+  font-style: monospace;
+  color: #fffcfb;
+}
